@@ -29,8 +29,8 @@ class MovieCard extends HTMLElement {
     			${genres} 
     		</div>
     	</div>
-    	<img class="posterImage" src='https://image.tmdb.org/t/p/original/${movie.poster_path}' alt>
 		`
+		// <img class="posterImage" src='https://image.tmdb.org/t/p/original/${movie.poster_path}' alt>
 
 		this.shadowRoot.innerHTML = itemCard;
 	}
