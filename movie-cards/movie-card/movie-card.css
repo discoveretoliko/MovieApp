@@ -1,0 +1,20 @@
+.cardDetails {
+    display: flex;
+    flex-direction: column;
+}
+.wrapGenres {
+    display: flex;
+    gap: 8px;
+}
+.genre {
+    border: 1px solid grey;
+    background-color: lightgrey;
+    border-radius: 8px;
+    padding: 4px 16px;
+}
+.posterImage {
+    width: 20%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
